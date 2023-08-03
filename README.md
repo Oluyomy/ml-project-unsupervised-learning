@@ -4,7 +4,7 @@
 unsupervised learning techniques is applied to a real-world data set and data visualization tools to communicate the insights gained from the analysis.
 
 ## Project  Goals
-- The goal of this unsupervised learning techniques on a wholesale data dataset is to identify patterns and group similar data points together.
+- The goal of this unsupervised learning techniques on a wholesale data dataset is to identify patterns and correlation between variables.
 - To perform k-means clustering, hierarchical clustering, and principal component analysis (PCA) to identify patterns and group similar data points together
 - To determine the optimal number of clusters and communicate the insights gained through data visualization.
 
@@ -12,7 +12,7 @@ unsupervised learning techniques is applied to a real-world data set and data vi
 # Process
 Step 1: Obtaining data
 This dataset is originally  fron Kaggle unsupervised learning machine learning project on a "Wholesale Data" dataset containing information about various products sold by a grocery store.
-[Kaggle Dataset](hhttps://www.kaggle.com/datasets/binovi/wholesale-customers-data-set)
+[Kaggle Dataset](https://www.kaggle.com/datasets/binovi/wholesale-customers-data-set)
 
 Step 2: Loading and understanding the dataset.
 - Working with Wholesale_Data.csv data to understand  each feature in the dataset.
@@ -36,18 +36,18 @@ Step 4: Performed k-means clustering:
 - Assign data points to clusters..
 - Update the centroids and repeat until convergence.
 
-step 6: Hierarchical clustering.
+step 5: Hierarchical clustering.
 - The'ward' linkage method in hierachical clustering was used to minimizes the variance of distances between clusters. 
 - Then we created a dendrogram to visualize the hierarchical structure of the data.
 - Determine the optimum number of clusters based on the vertical lines (threshold_distance) where it forms distinct clusters.
 
-step 7: principal component analysis (PCA) was done to identify patterns, reduce the dimensionality of the data set, group similar data points together.
+step 6: principal component analysis (PCA): was done to identify patterns, reduce the dimensionality of the data set, group similar data points together.
 -  Determine the optimal number of clusters.
 -  Communicate the insights gained through data visualization.
 
 
 
-# Results
+## Results
 - The are no missing values in the dataset.
 - From the dataset, two columns where remove for obvious reasons(Channel and Region).
 - It was observed that the variables were not normal distributed . They are skewed to the right indicating outliers.
@@ -58,5 +58,6 @@ step 7: principal component analysis (PCA) was done to identify patterns, reduce
 - Based on the elbow plot,the inertia drops very quickly as we increase k up to 4.
 - Analyzing the dendrogram plot shows the relationship  of different feature,threshold_distance is selected based on the height of the dendrogram where it is clear to separate the clusters and this is around 4.
 - The first 3 principal components captured most of the variance in the data giving approximately 90% of the model prediction which accounts for the larger part of the model that can be retained.
- # conclusion
- Based on the Elbow plot, the Hierarchical clustering dendogram, we can ascertain that the optimum no of clusters most likely is 4.
+## conclusion
+ Based on the Elbow plot, the Hierarchical clustering dendogram, we can ascertain that the optimum number of clusters most likely is 4.
+ 
