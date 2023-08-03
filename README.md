@@ -48,14 +48,14 @@ step 6: principal component analysis (PCA): was done to identify patterns, reduc
 
 
 ## Results
-- The are no missing values in the dataset.
+- There are no missing values in the dataset.
 - From the dataset, two columns where remove for obvious reasons(Channel and Region).
-- It was observed that the variables were not normal distributed . They are skewed to the right indicating outliers.
+- It was observed that the variables were not normal distributed. They are skewed to the right indicating outliers.
 - Based on the correlation coefficient, we can interpret thus that  there is almost no linear correlation between 'Fresh' and 'Grocery' spending which is  -0.012
 - There is a weak positive  correlation between Detergents_paper and Delicassen 0.069.
-- There is a significant relationship  between Milk and Detergents_paper 0.66 meaning as the sales of milk increases, so is the sales of Detergents_paper.
+- There is a significant relationship  between Milk and Detergents_paper 0.66, meaning as the sales of milk increases, so is the sales of Detergents_paper.
 - There is a strong positive correlation between Grocery and Detergent_paper this indicates that as Grocery sales increases so is Detergents_paper.
-- Based on the elbow plot,the inertia drops very quickly as we increase k up to 4.
+- Based on the elbow plot in Kmeans,the inertia drops very quickly as we increase k up to 4.
 - Analyzing the dendrogram plot shows the relationship  of different feature,threshold_distance is selected based on the height of the dendrogram where it is clear to separate the clusters and this is around 4.
 - The first 3 principal components captured most of the variance in the data giving approximately 90% of the model prediction which accounts for the larger part of the model that can be retained.
 ## conclusion
