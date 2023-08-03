@@ -60,4 +60,5 @@ step 6: principal component analysis (PCA): was done to identify patterns, reduc
 - The first 3 principal components captured most of the variance in the data giving approximately 90% of the model prediction which accounts for the larger part of the model that can be retained.
 ## conclusion
  Based on the Elbow plot, the Hierarchical clustering dendogram, we can ascertain that the optimum number of clusters most likely is 4.
- 
+ ## Challenges
+   Time constraint to explore more on the principal component.
